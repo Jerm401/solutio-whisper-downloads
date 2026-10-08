@@ -8,7 +8,18 @@ Download the newest version from the [Releases page](https://github.com/Jerm401/
 ## Windows
 
 1. Download `SolutioWhisper-<version>.zip`.
-2. Unzip it and run the installer inside.
+2. Right-click the zip and click **Properties**.
+3. On the **General** tab, select **Unblock** (bottom right) and click **OK**.
+   If you do not see **Unblock**, go to the next step.
+4. Right-click the zip and click **Extract All**, then click **Extract**.
+5. In the new folder, double-click **Install Solutio Whisper.cmd**.
+
+Do step 3 before step 4. Windows marks every downloaded file, and
+**Extract All** copies the mark to each file in the zip. Smart App Control
+blocks the installer when it has the mark. If you extracted the zip first,
+delete the folder, unblock the zip, and extract it again.
+
+If you see "Windows protected your PC", click **More info**, then **Run anyway**.
 
 ## Mac (Apple Silicon: M1 or later)
 
